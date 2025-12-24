@@ -1,10 +1,10 @@
-# Mediakit Video Scrubber
+# Mediakit Video Trimmer
 
-A Flutter package that provides a customizable Mediakit Video Scrubber widget. This widget allows you to display a slider with thumbnails generated from a video, making it easy to navigate and preview different parts of the video.
+A Flutter package that provides a customizable Mediakit Video Trimmer widget. This widget allows you to display a slider with thumbnails generated from a video, making it easy to navigate and preview different parts of the video.
 
 ## Features
 
-- Displays a Mediakit Video Scrubber with customizable settings.
+- Displays a Mediakit Video Trimmer with customizable settings.
 - Supports custom frame builders for individual frames in the slider.
 - Allows seeking to different parts of the video by interacting with the slider.
 ## Preview
@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Mediakit Video Scrubber Example'),
+          title: Text('Mediakit Video Trimmer Example'),
         ),
         body: Center(
           child: VideoThumbnailSlider(
